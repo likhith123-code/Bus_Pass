@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buspassApplyPage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/apply"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:lines="1"
+        android:textStyle="bold"
+        android:id="@+id/passRollNumber"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:hint="Enter Mobile Number"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/passMobileNumber"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/phone_logo"
+        />
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/passSpinner"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:hint="Enter Login Password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/passPassword"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_password"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/passPrice"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/passHint"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/passbutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Apply Now"
+        android:onClick="passApply"
+        android:layout_margin="15dp"/>
+
+
+
+</LinearLayout>

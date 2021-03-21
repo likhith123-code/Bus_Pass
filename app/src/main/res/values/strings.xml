@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bus_Pass</string>
+    <string-array name="type">
+        <item>Monthly Pass</item>
+        <item>Semester Pass</item>
+        <item>Annual Pass</item>
+        <item>Special Pass</item>
+    </string-array>
+</resources>

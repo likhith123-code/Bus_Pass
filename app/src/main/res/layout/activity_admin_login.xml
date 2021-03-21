@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminLogin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/admin"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_height="60dp"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/adminUsername"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_username"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:hint="Enter High Security Password"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/adminPassword"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_password"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:hint="Enter Access Number"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/adminPin"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_password"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:id="@+id/adminButton"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:onClick="adminLoginNow"
+        android:backgroundTint="@null"
+        android:background="@drawable/buttondesign"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+</LinearLayout>

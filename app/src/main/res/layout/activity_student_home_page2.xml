@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".studentHomePage2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome2"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/hello"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_margin="35dp"/>
+    <Button
+        android:id="@+id/wallet2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My Wallet"
+        android:onClick="walletPage2"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/buspassbook2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Apply New Bus Pass"
+        android:onClick="applyPage2"/>
+    <Button
+        android:id="@+id/buspassrenewal2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Bus Pass Renewal"
+        android:onClick="renewalHomePage2"/>
+
+    <Button
+        android:id="@+id/busroutes2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Get Bus Routes"
+        android:onClick="getBusRoute2"/>
+    <Button
+        android:id="@+id/busPasses2"
+        android:layout_width="300dp"
+        android:onClick="myPassesPage2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="My Bus Pass" />
+</LinearLayout>

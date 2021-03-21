@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp"
+    tools:context=".verificationPage">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_height="60dp"
+        android:hint="Enter RollNumber"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/verifyDetails"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_username"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:id="@+id/verifyNow"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Verify Now"
+        android:onClick="verifyCandidate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_height="70dp"
+        android:hint="Enter Reason for rejection"
+        android:inputType="textLongMessage"
+        android:id="@+id/rejectReason"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:id="@+id/rejectNow"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Reject Now"
+        android:onClick="rejectCandidate"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+
+
+</LinearLayout>

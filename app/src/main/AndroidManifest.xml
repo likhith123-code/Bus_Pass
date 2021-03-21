@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bus_pass">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/passs"
+        android:label="BusWaY"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bus_Pass">
+        <activity android:name=".renewalPage"></activity>
+        <activity android:name=".conductorHomePage" />
+        <activity android:name=".verificationPage" />
+        <activity android:name=".pendingApplications" />
+        <activity android:name=".adminHomePage" />
+        <activity android:name=".routesPage" />
+        <activity android:name=".studentHomePage2" />
+        <activity android:name=".myPass" />
+        <activity android:name=".buspassApplyPage" />
+        <activity android:name=".studentWallet" />
+        <activity android:name=".studentHomePage" />
+        <activity android:name=".adminLogin" />
+        <activity android:name=".loginConductor" />
+        <activity android:name=".registrationPage" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

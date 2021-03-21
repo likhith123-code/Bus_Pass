@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    android:foreground="#228A958E"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/amounts"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pass Id : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/passids"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll Number : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mahesh"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/rolls"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9898907890"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/statuss"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lbnagar-hayathnagar"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/types"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valid : "
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lbnagar-hayathnagar"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/valids"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

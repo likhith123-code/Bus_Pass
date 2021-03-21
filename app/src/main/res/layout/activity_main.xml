@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFAF8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="259dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_bus"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/student_login"
+        android:onClick="loginPage"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:text="Student Login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/student_register"
+        android:layout_margin="10dp"
+        android:onClick="registerPage"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:text="Student Registration"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/conductor_login"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:onClick="conductorPage"
+        android:drawableLeft="@drawable/ic_action_conductor"
+        android:text="Conductor Login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:id="@+id/admin_login"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/admin_logo"
+        android:text="Admin Login"
+        android:onClick="adminPage"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+</LinearLayout>

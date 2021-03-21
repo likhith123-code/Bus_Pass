@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".studentWallet">
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="194dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/wallet"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:textColor="#0C0A0E"
+        android:id="@+id/amountAvailable"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="23dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/walletAmount"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:maxLength="4"
+        android:layout_margin="25dp"
+        android:hint="Enter Amount To Be Added"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="300dp"
+        android:id="@+id/wallet_added"
+        android:onClick="addAmount"
+        android:layout_margin="10dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Add to Wallet"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+
+
+</LinearLayout>

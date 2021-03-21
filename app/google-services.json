@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212382633658",
+    "firebase_url": "https://buspass-c50be-default-rtdb.firebaseio.com",
+    "project_id": "buspass-c50be",
+    "storage_bucket": "buspass-c50be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212382633658:android:aa777b810800ebad9b7c83",
+        "android_client_info": {
+          "package_name": "com.example.bus_pass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212382633658-n8j56hrmj6fsn8g6lqfessg5svd97dks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGGeMOAHSkVhG2j_P2CTs4JLFqARTIMoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212382633658-n8j56hrmj6fsn8g6lqfessg5svd97dks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

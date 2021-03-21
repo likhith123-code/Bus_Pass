@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginPage">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp"
+
+        android:src="@drawable/loginpagelogo"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_height="60dp"
+        android:hint="Enter RollNumber"
+        android:inputType="text"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/usernameLogin"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_username"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:hint="Enter Password"
+        android:lines="1"
+        android:maxLength="20"
+        android:id="@+id/passwordLogin"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/logo_password"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:id="@+id/buttonLogin"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:onClick="loginNow"
+        android:backgroundTint="@null"
+        android:background="@drawable/buttondesign"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="551dp" />
+</LinearLayout>
